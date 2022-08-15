@@ -1,7 +1,18 @@
 import React from "react";
+import Navbar from "./Navbar";
+import Hero from "./Hero";
+import Sidebar from "./Sidebar";
+import Submenu from "./Submenu";
 
 function Home() {
-  return <div>Home</div>;
+  return (
+    <>
+      <Navbar />
+      <Sidebar />
+      <Hero />
+      <Submenu />
+    </>
+  );
 }
 
 export default Home;
